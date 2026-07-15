@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/images/images/banner.svg" width="100%" alt="HylooSec Official GitHub Banner" />
+  <img src="./assets/images/banner.svg" width="100%" alt="HylooSec Official GitHub Banner" />
 </p>
 <p align="center">
   <a href="https://www.hyloosec.online/">
