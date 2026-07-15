@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#05070B"/>
+<stop offset="100%" stop-color="#0B121A"/>
+</linearGradient>
+<linearGradient id="c" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#75FFF5"/>
+<stop offset="100%" stop-color="#1EB8C8"/>
+</linearGradient>
+<filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="6" result="b"/>
+<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<style>
+.t{font-family:Segoe UI,Arial,sans-serif;fill:#EAFDFC}
+.s{font-family:Segoe UI,Arial,sans-serif;fill:#8FA7B2}
+</style>
+</defs>
+
+<rect width="1200" height="760" rx="28" fill="url(#bg)"/>
+
+<text x="600" y="70" text-anchor="middle" class="t" font-size="38" font-weight="700">
+HylooSec Architecture
+</text>
+<text x="600" y="102" text-anchor="middle" class="s" font-size="16">
+Privacy • Security • Scalability • Real-Time Communication
+</text>
+
+<!-- boxes -->
+<g filter="url(#g)">
+<rect x="430" y="140" width="340" height="70" rx="16" fill="#111B24" stroke="url(#c)"/>
+<text x="600" y="183" text-anchor="middle" class="t" font-size="24" font-weight="700">React Frontend</text>
+
+<rect x="160" y="300" width="300" height="78" rx="16" fill="#111B24" stroke="url(#c)"/>
+<text x="310" y="332" text-anchor="middle" class="t" font-size="22" font-weight="700">Spring Boot API</text>
+<text x="310" y="355" text-anchor="middle" class="s" font-size="14">Authentication • Media • REST</text>
+
+<rect x="740" y="300" width="300" height="78" rx="16" fill="#111B24" stroke="url(#c)"/>
+<text x="890" y="332" text-anchor="middle" class="t" font-size="22" font-weight="700">Node.js Gateway</text>
+<text x="890" y="355" text-anchor="middle" class="s" font-size="14">Socket.IO • Messaging</text>
+
+<rect x="430" y="465" width="340" height="78" rx="16" fill="#111B24" stroke="url(#c)"/>
+<text x="600" y="498" text-anchor="middle" class="t" font-size="22" font-weight="700">Socket.IO</text>
+<text x="600" y="521" text-anchor="middle" class="s" font-size="14">Real-Time Event Engine</text>
+
+<rect x="170" y="625" width="240" height="74" rx="16" fill="#111B24" stroke="url(#c)"/>
+<text x="290" y="665" text-anchor="middle" class="t" font-size="22" font-weight="700">MongoDB</text>
+
+<rect x="480" y="625" width="240" height="74" rx="16" fill="#111B24" stroke="url(#c)"/>
+<text x="600" y="665" text-anchor="middle" class="t" font-size="22" font-weight="700">PostgreSQL</text>
+
+<rect x="790" y="625" width="240" height="74" rx="16" fill="#111B24" stroke="url(#c)"/>
+<text x="910" y="665" text-anchor="middle" class="t" font-size="22" font-weight="700">Cloudinary</text>
+</g>
+
+<!-- connectors -->
+<g stroke="url(#c)" stroke-width="3" fill="none" filter="url(#g)">
+<path d="M600 210V255"/>
+<path d="M600 255H310V300"/>
+<path d="M600 255H890V300"/>
+<path d="M310 378V430H600V465"/>
+<path d="M890 378V430H600V465"/>
+<path d="M600 543V585"/>
+<path d="M600 585H290V625"/>
+<path d="M600 585V625"/>
+<path d="M600 585H910V625"/>
+</g>
+
+<!-- animated packets -->
+<circle r="5" fill="#7EFFF3">
+<animateMotion dur="4s" repeatCount="indefinite" path="M600 210 V255 H310 V300"/>
+</circle>
+<circle r="5" fill="#7EFFF3">
+<animateMotion dur="4s" begin="1.3s" repeatCount="indefinite" path="M600 210 V255 H890 V300"/>
+</circle>
+<circle r="5" fill="#7EFFF3">
+<animateMotion dur="5s" begin="0.8s" repeatCount="indefinite" path="M310 378 V430 H600 V465 V585 H910 V625"/>
+</circle>
+
+</svg>
