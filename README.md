@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/images/banner.svg" width="100%" alt="HylooSec Official GitHub Banner" />
+  <img src="./assets/images/images/banner.svg" width="100%" alt="HylooSec Official GitHub Banner" />
 </p>
 <p align="center">
   <a href="https://www.hyloosec.online/">
@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/Project_Status-Active_Development-1fc7b7?style=flat-square" alt="Project status" />
 </p>
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 About HylooSec
 HylooSec is a privacy-focused real-time communication platform designed to provide secure, modern and responsive messaging without requiring users to depend on a phone number for account creation.
@@ -43,7 +43,7 @@ Responsive desktop and mobile experience
 Dark and light application themes
 Independent JSON-powered documentation system
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 Technology Stack
 Frontend
@@ -86,11 +86,11 @@ Vercel	Frontend hosting
 GitHub Actions	Automated workflows
 Git and GitHub	Source control and project collaboration
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 System Architecture
 <p align="center">
-  <img src="./assets/architecture.svg" width="100%" alt="HylooSec system architecture" />
+  <img src="./assets/images/architecture.svg" width="100%" alt="HylooSec system architecture" />
 </p>
 High-level request flow
 ```text
@@ -132,7 +132,7 @@ Seen
 ```
 HylooSec synchronizes message state across the sender, recipient, open conversation and conversation sidebar.
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 Major Platform Capabilities
 Secure Account System
@@ -156,7 +156,7 @@ GitHub Documentation Repository
 ```
 This allows documentation updates without rebuilding the main application.
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 Official Repositories
 Repository	Description	Status
@@ -172,7 +172,7 @@ Profile Repository	Official GitHub profile presentation and automation	Active
   </a>
 </p>
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 GitHub Activity
 <p align="center">
@@ -191,7 +191,7 @@ Contribution activity
   </picture>
 </p>
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 Current Development Focus
 Complete the official HylooSec Documentation Center
@@ -214,7 +214,7 @@ Scalability	Design services that can grow with platform usage
 Maintainability	Keep code, infrastructure and documentation organized
 Transparency	Clearly explain how users interact with the platform
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 Documentation Center
 The official documentation repository is being organized into:
@@ -256,7 +256,7 @@ Logging out securely
   </a>
 </p>
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section divider" />
+  <img src="./assets/images/divider.svg" width="100%" alt="Section divider" />
 </p>
 Connect With HylooSec
 <p align="center">
@@ -274,5 +274,5 @@ Connect With HylooSec
   <strong>HylooSec. Because your conversations belong only to you.</strong>
 </p>
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="HylooSec footer" />
+  <img src="./assets/images/footer.svg" width="100%" alt="HylooSec footer" />
 </p>
